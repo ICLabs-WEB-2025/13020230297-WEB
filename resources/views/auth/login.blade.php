@@ -32,7 +32,7 @@
                         </div>
                         <div class="d-flex justify-content-between align-items-center">
                             @if (Route::has('password.request'))
-                            <a class="btn btn-link" href="{{ route('password.request') }}" style="color: #007bff; font-size: 0.9rem;">Forgot Your Password?</a>
+                            <!-- <a class="btn btn-link" href="{{ route('password.request') }}" style="color: #007bff; font-size: 0.9rem;">Forgot Your Password?</a> -->
                             @endif
                             <button type="submit" class="btn btn-primary px-4 py-2" style="border-radius: 8px; font-weight: bold; background-color: #007bff; border: none; transition: background-color 0.3s;">
                                 Login
